@@ -5,6 +5,10 @@ def addName(file_name):
     my_file.close()
 
 
+def hii(avi):
+    print(avi)
+    
+    
 def showNames(file_name):
     my_file = open(file_name, "r")
     for name in my_file.readlines():
